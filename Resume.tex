@@ -9,6 +9,7 @@
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
+\usepackage{multicol}
 
 
 \pagestyle{fancy}
@@ -80,91 +81,80 @@
     \resumeSubheading
       {University of California - Berkeley}{Berkeley, CA}
       {Bachelors of Arts in Data Science and Cognitive Science;  Overall GPA: 3.56}{Graduation: May 2020}
+      \begin{itemize}
+      	\begin{small}
+      	\item {Relevant Coursework: Data Mining \& Analytics, Data, Inference, \& Decisions, Principles \& Techniques of Data Science, Computational Models of Cognition, Cognitive Neuroscience}
+      	\item{Awards: Academic Honors, Consortium of Information Systems Scholarship, Warren L Finke Memorial Scholarship, Bernard Osher Scholarship}
+      	\end{small}
+      \end{itemize}
   \resumeSubHeadingListEnd
 
 
+%-----------Skills/Awards-----------------
+\section{Skills/Award}
+
+\resumeSubHeadingListStart
+	\resumeSubItem{Languages} 
+	{Python, C++, C, Java}
+	\resumeSubItem{Databases} 
+	{MySQL, PostgreSQL}
+	\resumeSubItem{Tools}
+	{TensorFlow, Pandas, Numpy, GitHub, SKlearn, Scipy, Matplotlib}
+	\resumeSubItem{Web Technologies}
+	{Flask, Django, HTML, CSS / SCSS, Javascript}
+\resumeSubHeadingListEnd
+
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Highlighted Projects \& Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Berkeley Wireless Research Center}{Berkeley, CA}
       {Associate System Administrator}{Oct 2018 - Dec 2020}
-      \resumeItemListStart
-        \resumeItem{Server Monitoring}
-          {Use Ganglia and Nagios to monitor cluster/node health by analyzing hardware logs and critical syslog . Used shell and BASH scripting to automate routine tasks, optimizing system availability (averaging 99.9\% up-time.)}
-        \resumeItem{Infrastructure Support}
-       	 {Set up user workstations, assisted in troubleshooting system issues in various OS environments, restore databases/privileges, and setup A/V equipment during weekly seminars.}
-        \resumeItem{Website Hosting}
-          {Responsible for creating, managing, and updating company website content. Migrated the website's CMS and databases to different platforms.}
-         \resumeItem{Storage Management}
-         {Perform daily tape backup of required file systems and systems data according to specific settings for security and streamlined data flow.}
-      \resumeItemListEnd
+      \begin{itemize}
+        \item
+          {Monitored server cluster/node health by analyzing hardware logs and critical syslog using Ganglia and Nagios.}
+        \item
+       	 {Designed scripts to automate routine sysadmin tasks, such as restoring databases/privileges, ultimately improving system availability (averaging 99.9\% up-time.)}
+        \item
+          {Responsible for creating, managing, and updating company website content every week. Migrated the website's CMS to different platforms.}
+      \end{itemize}
 
     \resumeSubheading
-      {Self-Employed}{Walnut Creek, CA}
-      {Web Developer}{Aug 2018 - Present}
-      \resumeItemListStart
-        \resumeItem{Clients}
-        {Development of responsive websites and systems for businesses/clients including:}
-        	\resumeItemListStart
-	        	\resumeItem{Evoenergy.pro}
-	        	{Wordpress website for clean energy contracting business}
-	        	\resumeItem{ThePumpMaster.com}
-	        	{Wix Website for Pool Cleaning business}
-	        	\resumeItem{Nomsi.com}
-	        	{HTML/CSS website for fruit beverage business}
-        	\resumeItemListEnd
-        \resumeItem{Execution}
-        {Ensure client requests were met and completed tasks efficiently resulting in reduced project turnaround time.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-		{Society of Hispanic Professional Engineers (SHPE)}{Concord, CA}
-		{Public Relations Officer}{Aug 2017 - Aug 2018}
-		\resumeItemListStart
-			\resumeItem{Event Organization}
-			{Successfully executing club socials, fundraisers and workshops with other on-campus organizations.}
-			\resumeItem{Executive Assistance}
-			{Assisted the upper management of SHPE by interacting with executives of STEM companies in the Bay Area}
-	\resumeItemListEnd
-
-
-    \resumeSubheading
-      {Northgate High School}{Walnut Creek, CA}
-      {Wrestling Coach}{Nov 2017 - Present (Seasonal)} 
-      \resumeItemListStart
-        \resumeItem{Leadership}
-          {Trained students in folkstyle and Olympic wrestling. Monitored individual performances during practice and competition, working on suitable strategies according to each student's wrestling and fitness capabilities. Helped lead team to consecutive league championships and its first district championship.}
-      \resumeItemListEnd
-      
-      
+		{Project - Waste Image Classifier}{Berkeley, CA}
+		{Course: Data Mining \& Analytics}{Spring 2020}
+		\begin{itemize}
+			\item	{Led a team of five students in coding and implementing a full-stack website multi-layered convolution neural network to sort random pictures into trash or non-trash classifications.}
+			\item	{Used Google's Inception V3 for transfer learning on thousands of waste images crowd-sourced and taken personally.}
+			\item {Built a website full-stack with Flask, Python, and HTML to provide visualization and interaction.}
+		\end{itemize}
+	\resumeSubheading
+	{Project - Movie Recommendation System}{Berkeley, CA}
+	{Course: Data Mining \& Analytics}{Fall 2019}
+	\begin{itemize}
+		\item	{Developed a movie recommended system with collaborative filtering using a K-nearest neighbor algorithm and MovieLens dataset using Python, Pandas, and Numpy.}
+	\end{itemize}
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-  	\resumeSubItem{Waste Image Classifier (Spring 2021)}
-  	{Used convolution neural networks and a pre-trained Inception model to sort random pictures into trash or non-trash classifications. Created flask web app for demo (Link in portfolio).}
-    \resumeSubItem{To-Do List (Fall 2020)}
-      {Developed a to-do list app with Python, Django, HTML, and SQLite.}
-    \resumeSubItem{Document Scanner (Spring 2020)} 
-    {Developed a document scanner using Python and OpenCV.}
-    \resumeSubItem{Movie Recommendation System (Spring 2019)}
-      {Developed a movie recommended system with collaborative filtering using a k-nearest neighbors algorithm on using Pandas and Python.}
-    
-     
-  \resumeSubHeadingListEnd
+\section{Leaderships \& Extracurricular Activities}
+\resumeSubHeadingListStart
+  	\resumeSubheading
+  	{Northgate High School}{Walnut Creek, CA}
+  	{Wrestling Coach}{Nov 2017 - Present}
+  	\begin{itemize}
+  		\item {Monitored student performances during practice and competition, working on suitable strategies according to one's wrestling and fitness capabilities.}
+  		\item {Led varsity team to consecutive league championships and the first district championship in ten years.}
+    \end{itemize}
+	\resumeSubheading
+	{Society of Hispanic Professional Engineers (SHPE)}{Concord, CA}
+	{Public Relations Officer}{Aug 2017 - Aug 2018}
+	\begin{itemize}
+		\item {Successfully executing club socials, fundraisers and workshops with other on-campus organizations, raising over in total \$10,000.}  
+	\end{itemize}
+\resumeSubHeadingListEnd
+   
 
-%-----------Skills/Awards-----------------
-\section{Skills/Award}
-	\resumeSubHeadingListStart
-		\resumeSubItem{Languages} 
-		{Python, C++, JavaScript, JQuery, Java, SQL, HTML, CSS / SCSS}
-		\resumeSubItem{Frameworks/Tools}
-		{TensorFlow, Pandas, Numpy, Flask, GitHub, SKlearn, Scipy, Matplotlib, Django}
-		\resumeSubItem{Award/Honors}
-		{Academic Honors (Summer 2016-Fall 2017, Winter 2018-19, Spring 2019), Consortium of Information Systems Scholarship (2017), Warren L Finke Memorial Scholarship (2017), Bernard Osher Scholarship (2017)}
-	\resumeSubHeadingListEnd
+
 	
 \end{document}
