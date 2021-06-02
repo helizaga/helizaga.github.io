@@ -33,23 +33,23 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+	\vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
-  }
+	\item\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
+	}
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\small#3 & \small #4 \\
+	\end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -57,43 +57,43 @@
 \renewcommand{\labelitemii}{$\circ$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+	\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+	\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
-
-%----------HEADING-----------------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Hans Elizaga} & Email : \href{mailto:helizaga@berkeley.edu}{helizaga@berkeley.edu}\\
-  \href{http://hanselizaga.me/}{hanselizaga.me} & Mobile : 925-212-4633 \\
-  \href{https://github.com/helizaga}{github.com/helizaga}
-\end{tabular*}
-
-
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of California - Berkeley}{Berkeley, CA}
-      {Bachelors of Arts in Data Science and Cognitive Science;  Overall GPA: 3.56}{Graduation: May 2020}
-      \begin{itemize}
-      	\begin{small}
-      	\item {Relevant Coursework: Data Mining \& Analytics, Data, Inference, \& Decisions, Principles \& Techniques of Data Science, Computational Models of Cognition, Cognitive Neuroscience}
-      	\item{Awards: Academic Honors, Consortium of Information Systems Scholarship, Warren L Finke Memorial Scholarship, Bernard Osher Scholarship}
-      	\end{small}
-      \end{itemize}
-  \resumeSubHeadingListEnd
-
-
-%-----------Skills/Awards-----------------
-\section{Skills/Award}
-
-\resumeSubHeadingListStart
+	
+	%----------HEADING-----------------
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{\Large Hans Elizaga} & Email : \href{mailto:tom.elizaga@gmail.com}{tom.elizaga@gmail.com}\\
+		\href{http://hanselizaga.live/}{hanselizaga.live} & Mobile : 925-212-4633 \\
+		\href{https://github.com/helizaga}{github.com/helizaga}
+	\end{tabular*}
+	
+	
+	%-----------EDUCATION-----------------
+	\section{Education}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{University of California, Berkeley}{Berkeley, CA}
+	{Bachelors of Arts in Data Science and Cognitive Science;  Overall GPA: 3.56}{Graduation: May 2020}
+	\begin{itemize}
+		\begin{small}
+			\item {Relevant Coursework: Data Mining \& Analytics, Data, Inference, \& Decisions, Principles \& Techniques of Data Science, Computational Models of Cognition, Cognitive Neuroscience}
+			\item{Awards: Academic Honors, Consortium of Information Systems Scholarship, Warren L Finke Memorial Scholarship, Bernard Osher Scholarship}
+		\end{small}
+	\end{itemize}
+	\resumeSubHeadingListEnd
+	
+	
+	%-----------Skills/Awards-----------------
+	\section{Skills}
+	
+	\resumeSubHeadingListStart
 	\resumeSubItem{Languages} 
 	{Python, C++, C, Java}
 	\resumeSubItem{Databases} 
@@ -102,60 +102,55 @@
 	{TensorFlow, Pandas, Numpy, GitHub, SKlearn, Scipy, Matplotlib}
 	\resumeSubItem{Web Technologies}
 	{Flask, Django, HTML, CSS / SCSS, Javascript}
-\resumeSubHeadingListEnd
-
-%-----------EXPERIENCE-----------------
-\section{Highlighted Projects \& Experience}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Berkeley Wireless Research Center}{Berkeley, CA}
-      {System Administrator}{Oct 2018 - Dec 2020}
-      \begin{itemize}
-        \item
-          {Monitored server cluster/node health by analyzing hardware logs and critical syslog using Ganglia and Nagios.}
-        \item
-       	 {Designed scripts to automate routine sysadmin tasks, such as restoring databases/privileges, ultimately improving system availability (averaging 99.9\% up-time.)}
-        \item
-          {Responsible for creating, managing, and updating company website content every week. Migrated the website's CMS to different platforms.}
-      \end{itemize}
-
-    \resumeSubheading
-		{Project - Waste Image Classifier}{Berkeley, CA}
-		{Course: Data Mining \& Analytics}{Spring 2020}
-		\begin{itemize}
-			\item	{Led a team of five students in coding and implementing a full-stack website multi-layered convolution neural network to sort random pictures into trash or non-trash classifications.}
-			\item	{Used Google's Inception V3 for transfer learning on thousands of waste images crowd-sourced and taken personally.}
-			\item {Built a website full-stack with Flask, Python, and HTML to provide visualization and interaction.}
-		\end{itemize}
+	\resumeSubHeadingListEnd
+	
+	%-----------EXPERIENCE-----------------
+	\section{Highlighted Projects \& Experience}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Berkeley Wireless Research Center}{Berkeley, CA}
+	{System Administrator}{Oct 2018 - Dec 2020}
+	\begin{itemize}
+		\item
+		{Monitored server cluster/node health by analyzing hardware logs and critical syslog using Ganglia and Nagios.}
+		\item
+		{Designed scripts to automate routine sysadmin tasks, such as restoring databases/privileges, ultimately improving system availability (averaging 99.9\% up-time.)}
+		\item
+		{Responsible for creating, managing, and updating company website content every week. Migrated the website's CMS to different platforms.}
+	\end{itemize}
+	
+	\resumeSubheading
+	{Project - Waste Image Classifier}{Berkeley, CA}
+	{Course: Data Mining \& Analytics}{Spring 2020}
+	\begin{itemize}
+		\item	{Led a team of five students in coding and implementing a full-stack website multi-layered convolution neural network to sort random pictures into trash or non-trash classifications.}
+		\item	{Used Google's Inception V3 for transfer learning on thousands of waste images crowd-sourced and taken personally.}
+		\item {Built a website full-stack with Flask, Python, and HTML to provide visualization and interaction.}
+	\end{itemize}
 	\resumeSubheading
 	{Project - Movie Recommendation System}{Berkeley, CA}
 	{Course: Data Mining \& Analytics}{Fall 2019}
 	\begin{itemize}
 		\item	{Developed a movie recommended system with collaborative filtering using a K-nearest neighbor algorithm and MovieLens dataset using Python, Pandas, and Numpy.}
+		\item{Awards: Academic Honors, Consortium of Information Systems Scholarship, Warren L Finke Memorial Scholarship, Bernard Osher Scholarship}
 	\end{itemize}
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------------
-\section{Leaderships \& Extracurricular Activities}
-\resumeSubHeadingListStart
+	\resumeSubHeadingListEnd
+	
+	
+	%-----------PROJECTS-----------------
+	\section{Leaderships \& Extracurricular Activities}
+	\resumeSubHeadingListStart
 	\resumeSubheading
-	{Free-lance}{Walnut Creek, CA}
+	{Freelance}{Walnut Creek, CA}
 	{Web Developer}{Aug 2017 - Present}
 	\begin{itemize}
 		\item {Design and develop a fluid and responsive website to better showcase their product.}  
 		\item {Implemented using HTML, CSS, Javascript, jQuery, and custom frameworks.}  
-		\item {Clients: Nomsi.com, Thepumpmaster.com, Evoenergy.pro, Metrosak.com}  
+		\item {Clients: Nomsi.com, Thepumpmaster.com, Evoenergy.pro, Metrosak.com, hanselizaga.live}  
 	\end{itemize}
-	\resumeSubheading
-	{Northgate High School}{Walnut Creek, CA}
-	{Wrestling Coach}{Nov 2017 - Present}
-	\begin{itemize}
-		\item {Led varsity team to consecutive league championships and the first district championship in ten years.}
-	\end{itemize}
-\resumeSubHeadingListEnd
-   
-
-
+	\resumeSubHeadingListEnd
+	
+	
+	
 	
 \end{document}
